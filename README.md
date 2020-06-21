@@ -1,2 +1,1 @@
-# shopping list app backend flask
- 
+# quick get started Flask Template for heroku
