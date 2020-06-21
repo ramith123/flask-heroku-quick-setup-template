@@ -22,7 +22,6 @@ import os
 
 from model import db
 
-
 """ Begin boilerplate code """
 
 
@@ -38,6 +37,7 @@ def create_app():
 app = create_app()
 
 app.app_context().push()
+""" end boilerplate code """
 
 
 @app.route("/", methods=["GET", "POST"])
